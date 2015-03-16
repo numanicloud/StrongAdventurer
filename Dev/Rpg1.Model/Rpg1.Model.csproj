@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{36703BDF-C324-45AE-AD8C-CF25CD1457EC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Rpg1.Model</RootNamespace>
+    <AssemblyName>Rpg1.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CsvHelper">
+      <HintPath>..\packages\CsvHelper.2.10.0\lib\net40-client\CsvHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adventure\AdventureFlow.cs" />
+    <Compile Include="Adventure\Events.cs" />
+    <Compile Include="Adventure\Messages\ChangeBackgroundMessage.cs" />
+    <Compile Include="Adventure\Messages\PlayBgmMessage.cs" />
+    <Compile Include="BattleDebug\BattleDebugFlow.cs" />
+    <Compile Include="Battle\AI\NightKingAi.cs" />
+    <Compile Include="Battle\Messages\LoseMessage.cs" />
+    <Compile Include="Entities\Achievement.cs" />
+    <Compile Include="Entities\StatsColor.cs" />
+    <Compile Include="Messages\ChoiceMessage.cs" />
+    <Compile Include="Battle\ActionContext.cs" />
+    <Compile Include="Battle\AI\CheckingAIPauseData.cs" />
+    <Compile Include="Battle\AI\IAIPauseData.cs" />
+    <Compile Include="Battle\AI\CheckingAI.cs" />
+    <Compile Include="Battle\AI\CustomAI.cs" />
+    <Compile Include="Battle\AI\EnemyAIFactory.cs" />
+    <Compile Include="Battle\AI\AiCustomize.cs" />
+    <Compile Include="Battle\AI\CycleAiCustomize.cs" />
+    <Compile Include="Battle\AI\RepeatAI.cs" />
+    <Compile Include="Battle\BattleCommand.cs" />
+    <Compile Include="Battle\BattleContext.cs" />
+    <Compile Include="Battle\BattleFlow.cs" />
+    <Compile Include="Battle\Battler.cs" />
+    <Compile Include="Battle\AI\OnePatternAI.cs" />
+    <Compile Include="Battle\Messages\ChooseSkill.cs" />
+    <Compile Include="Battle\EnemyBattler.cs" />
+    <Compile Include="Battle\Messages\Damage.cs" />
+    <Compile Include="Battle\Messages\HealMessage.cs" />
+    <Compile Include="Battle\Messages\PlayEffect.cs" />
+    <Compile Include="Adventure\Messages\StringMessage.cs" />
+    <Compile Include="Entities\PauseData.cs" />
+    <Compile Include="Battle\PlayerBattler.cs" />
+    <Compile Include="Battle\Skill\AbsorbBehavior.cs" />
+    <Compile Include="Battle\Skill\AttackBehavior.cs" />
+    <Compile Include="Battle\Skill\CounterBehavior.cs" />
+    <Compile Include="Battle\Skill\SkillBehaviorFactory.cs" />
+    <Compile Include="Battle\Status\AbsorbingStatus.cs" />
+    <Compile Include="Battle\Status\CounterStatus.cs" />
+    <Compile Include="Battle\Status\Status.cs" />
+    <Compile Include="Battle\AI\RepeatAIPauseData.cs" />
+    <Compile Include="Adventure\Messages\SetCharactor.cs" />
+    <Compile Include="Repository\AchievementRepository.cs" />
+    <Compile Include="Adventure\Messages\GetAchievementMessage.cs" />
+    <Compile Include="Title\ChangeToLoadSceneMessage.cs" />
+    <Compile Include="Title\AchievementContext.cs" />
+    <Compile Include="Title\LogoFlow.cs" />
+    <Compile Include="Title\WaitAchievementSceneFinished.cs" />
+    <Compile Include="Title\WaitLogoFinished.cs" />
+    <Compile Include="Title\WaitScoreSceneFinished.cs" />
+    <Compile Include="RpgHelper.cs" />
+    <Compile Include="Messages\ChangeContextMessage.cs" />
+    <Compile Include="Def.cs" />
+    <Compile Include="Entities\Ability.cs" />
+    <Compile Include="Entities\EnemiesAbility.cs" />
+    <Compile Include="Battle\AI\EnemyAI.cs" />
+    <Compile Include="Entities\DataBase.cs" />
+    <Compile Include="Entities\Score.cs" />
+    <Compile Include="Battle\Skill\SkillBehavior.cs" />
+    <Compile Include="Entities\SkillKind.cs" />
+    <Compile Include="IFlow.cs" />
+    <Compile Include="Messages\ChangeFlowMessage.cs" />
+    <Compile Include="Messages\IMessage.cs" />
+    <Compile Include="NotificationObject.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\Encryptor.cs" />
+    <Compile Include="Repository\EnemyRepository.cs" />
+    <Compile Include="Repository\PauseRepository.cs" />
+    <Compile Include="Repository\ScoreRepository.cs" />
+    <Compile Include="Repository\PlayerRepository.cs" />
+    <Compile Include="Adventure\AdventureContext.cs" />
+    <Compile Include="Battle\Messages\DeathOfBattler.cs" />
+    <Compile Include="Messages\TerminateMessage.cs" />
+    <Compile Include="Title\ScoreContext.cs" />
+    <Compile Include="Title\TitleFlow.cs" />
+    <Compile Include="Title\TitleMenuChoice.cs" />
+    <Compile Include="Title\TitleMenuMessage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NacHelpers\NacHelpers.csproj">
+      <Project>{bb1244bb-355a-4686-9279-e0ddfa3663b2}</Project>
+      <Name>NacHelpers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

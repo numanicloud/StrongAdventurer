@@ -1,0 +1,138 @@
+
+*画像などの素材をコピーしてこのプログラムを実行する以外の用途に用いたりしないでください。*
+
+#画像素材
+Rドさま
+http://www.geocities.co.jp/Milano-Cat/3319/
+
+はるぱかさま
+http://www.pixiv.net/member_illust.php?mode=medium&illust_id=47697829
+
+誰そ彼亭さま
+http://may.force.mepage.jp/
+
+フリーテクスチャ素材館さま
+http://free-texture.net/
+
+================================================================
+Game-icons.netのアイコン素材を使用しています。
+icons made by Lorc, Felbrigg. Available on http://game-icons.net/
+CC BY3.0ライセンス: http://creativecommons.org/licenses/by/3.0/legalcode
+================================================================
+
+#音声素材
+On-Jin ～音人～さま
+http://on-jin.com/
+
+ザ・マッチメイカァズ2ndさま
+http://osabisi.sakura.ne.jp/m2/
+
+DOVA-SYNDROMEさま
+http://dova-s.jp/
+
+#フォント素材
+美咲ゴシック
+http://www.geocities.jp/littlimi/misaki.htm
+
+しねきゃぷしょん
+http://chiphead.jp/
+
+M+ フォント
+http://mplus-fonts.sourceforge.jp/mplus-outline-fonts/
+
+SketchetikLight
+http://www.myfonts.com/fonts/hiekkagraphics/sketchetik/
+
+#ライブラリ
+CsvHelper(Microsoft Public License (Ms-PL))
+http://joshclose.github.io/CsvHelper/
+
+Ix-Main
+ライセンス：https://msdn.microsoft.com/en-us/hh295787
+
+--AmusementCreatorsEngine--
+
+The MIT License (MIT)
+
+Copyright (c) 2013-2014 AmusementCreatorsEngine
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+AmusementCreatorsEngine is dependent on:
+
+--GLFW--
+
+Copyright (c) 2002-2006 Marcus Geelnard
+Copyright (c) 2006-2010 Camilla Berglund <elmindreda@elmindreda.org>
+
+This software is provided 'as-is', without any express or implied
+warranty. In no event will the authors be held liable for any damages
+arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not
+   claim that you wrote the original software. If you use this software
+   in a product, an acknowledgment in the product documentation would
+   be appreciated but is not required.
+
+2. Altered source versions must be plainly marked as such, and must not
+   be misrepresented as being the original software.
+
+3. This notice may not be removed or altered from any source
+   distribution.
+
+
+--Effekseer--
+
+The MIT License (MIT)
+
+Copyright (c) 2011 Effekseer Project
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+--DirectX Tool Kit--
+
+https://directxtk.codeplex.com/
+Microsoft Public License (Ms-PL)
+
+--Ogg Vorbis--
+
+Copyright (c) 2002 - 2004, Xiph.org Foundation 
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: 
+?ERedistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+?ERedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+?ENeither the name of the Xiph.org Foundation nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+This software is provided by the copyright holders and contributors "as is" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the foundation or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.
