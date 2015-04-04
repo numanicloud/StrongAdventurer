@@ -19,7 +19,7 @@ namespace Rpg1.Model
 			AllEnemy,
 		}
 
-		public static readonly string DataPassword = "sanrasusupara-";
+		public static readonly string DataPassword = "hogehoge";
 		public static readonly string InitialSavePath = "Resources/Data/InitialSave.csv";
 		public static readonly string PauseDataPath = "pause.dat";
 		public static readonly string ScoreDataPath = "score.dat";

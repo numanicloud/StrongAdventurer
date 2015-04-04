@@ -24,6 +24,7 @@
 
 ###更新
 Main関数内で、毎フレーム、ChannelをUpdateしています。Model,Channel,Viewは次の流れで動作します。
+
 1. Channelは通常状態でUpdateされると、Modelのコルーチンの処理を進める。
 2. Modelはゲームの流れを進め、出力やユーザー入力の待機をする場合に`yield`で一旦処理を抜ける。
 3. Channelはコルーチンから返ってきたメッセージに紐付いたViewのメソッドを呼び出し、待機状態になる。
